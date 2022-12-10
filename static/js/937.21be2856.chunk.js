@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmmap=self.webpackChunkmmap||[]).push([[937],{3937:function(r,e,s){s.r(e),s.d(e,{default:function(){return i}});s(2791);var n=s(7689),c=s(184);var i=function(){var r=(0,n.lk)(),e=r.statusText,s=r.status;return(0,c.jsxs)("div",{id:"error-page",children:[(0,c.jsx)("h1",{children:"Oops!"}),(0,c.jsx)("p",{children:"Sorry, an unexpected error has occurred."}),(0,c.jsxs)("p",{children:[(0,c.jsxs)("i",{children:[s," "]}),(0,c.jsx)("i",{children:e})]})]})}}}]);
+//# sourceMappingURL=937.21be2856.chunk.js.map
