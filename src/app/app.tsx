@@ -1,4 +1,4 @@
-import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import {createBrowserRouter, RouterProvider, createHashRouter} from "react-router-dom";
 import React from 'react';
 import {Layout, Menu, theme} from 'antd';
 import {routes} from "./routes";
@@ -10,7 +10,8 @@ const App: React.FC = () => {
         token: {colorBgContainer},
     } = theme.useToken();
 
-    const router = createBrowserRouter(routes);
+    const router = createHashRouter(routes);
+    // const router = createBrowserRouter(routes);
 
     return (
         <Layout className="layout">
